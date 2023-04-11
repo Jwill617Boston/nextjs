@@ -2,6 +2,7 @@
 import Link from "next/link";
 import "./globals.css";
 import { Poppins } from "next/font/google";
+import Header from "./componets/Header";
 
 const poppins = Poppins({
    weight: ["400", "700"],
@@ -12,14 +13,8 @@ export default function RootLayout({ children }) {
    return (
       <html>
          <body className={poppins.className}>
-            <ul>
-               <li>
-                  <Link href="/">Home</Link>
-                  <Link href="/about">About</Link>
-                  <Link href="/about/team">Team</Link>
-               </li>
-            </ul>
-            {children}
+            <Header />
+            <main className="container">{children}</main>
          </body>
       </html>
    );
