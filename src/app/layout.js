@@ -5,18 +5,7 @@ import "./globals.css";
 export default function RootLayout({ children }) {
    return (
       <html>
-         <body>
-            <main>
-               <nav>
-                  <ul>
-                     <li>
-                        <Link href="/">Home</Link>
-                     </li>
-                  </ul>
-               </nav>
-               {children}
-            </main>
-         </body>
+         <body>{children}</body>
       </html>
    );
 }
