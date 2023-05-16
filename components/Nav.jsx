@@ -18,10 +18,10 @@ const Nav = () => {
             />
          </Link>
          <Link href="/" className="flex gap-2 flex-center">
-            Home
+            Link 1
          </Link>
          <Link href="/" className="flex gap-2 flex-center">
-            Home
+            Link 2
          </Link>
       </nav>
    );
