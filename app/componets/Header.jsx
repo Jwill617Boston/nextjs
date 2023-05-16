@@ -13,7 +13,7 @@ const Header = () => {
             </div>
             <div className="links">
                <Link href="/about">About</Link>
-               <Link href="/about/team">Our Team</Link>
+               <Link href="/team">Our Team</Link>
             </div>
          </div>
       </header>
