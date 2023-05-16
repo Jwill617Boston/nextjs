@@ -15,7 +15,7 @@ const HomePage = () => {
       <>
          <h1>HomePage</h1>
          <p className={lora.className}>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
+            Hello ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
             molestiae ipsam, et aut consequatur ipsum voluptates quasi, quos
             recusandae doloribus provident consequuntur amet nobis est voluptate
             perferendis quaerat distinctio saepe dolores perspiciatis ex ab
