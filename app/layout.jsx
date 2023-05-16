@@ -13,7 +13,10 @@ export default function RootLayout({ children }) {
    return (
       <html lang="en">
          <body className={poppins.className}>
-            <Header />
+            <nav>
+               <Header />
+            </nav>
+
             <main className="container">{children}</main>
          </body>
       </html>
