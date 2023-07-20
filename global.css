@@ -4,3 +4,6 @@
 @tailwind components;
 @tailwind utilities;
 
+.page {
+    @apply flex min-h-screen flex-col items-center justify-center p-12 pt-0 pb-0; 
+}
